@@ -6,7 +6,7 @@ name: 快手视频浏览
 on:
   workflow_dispatch:
   schedule:
-     - cron: '*/ 1-23 * * *'
+     - cron: '*/15 1-23 * * *'
   watch:
     types: started
 jobs:
